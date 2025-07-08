@@ -40,7 +40,7 @@ print("Intercept:", model.intercept_)
 
 # Step 9: Plot Actual vs Predicted
 plt.figure(figsize=(8, 6))
-plt.scatter(y_test, y_pred, color='blue')
+plt.scatter(y_test, y_pred, color='red')
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
